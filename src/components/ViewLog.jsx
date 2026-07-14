@@ -1,5 +1,6 @@
 import axios from 'axios'
 import { useEffect, useState } from 'react'
+import Naviagtion from './Naviagtion'
 
 const ViewLog = () => {
 
@@ -36,7 +37,7 @@ const[data,changeData] = useState([])
 
   return (
     <div>
-
+<Naviagtion/>
 <h1 align="center">Lab Entries</h1>
 
 
