@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useState } from 'react'
+import Naviagtion from './Naviagtion'
 
 const AddLog = () => {
 
@@ -60,7 +61,7 @@ const AddLog = () => {
 
   return (
     <div>
-
+        <Naviagtion/>
 <h1 align="center">Add Lab Entry</h1>
 <div className="container">
     <div className="row g-3">
